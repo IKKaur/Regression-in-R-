@@ -12,6 +12,7 @@ summary(anscombe)
 plot(anscombe$x1,anscombe$y1)
 
 ![Rplot14](https://user-images.githubusercontent.com/90278106/136883476-55cc62b2-34bd-45ae-a48e-7659aa846288.png)
+
 The coordinates of x1 and y1 are a little scatter but still have a positive corelation.
 
 ## Create 4 models for regression
@@ -29,11 +30,7 @@ lm4 <- lm(y4 ~ x4, data=anscombe)
 summary(lm4)
 
 ## Comparison of Models
-	   p-value   	Adjusted R2
-Model 1   0.00217	   0.6275
-Model 2	  0.002179	   0.6292
-Model 3	  0.002176	   0.6292
-Model 4   0.002165	   0.6297
+
 ![image](https://user-images.githubusercontent.com/90278106/136884392-8c104142-0d08-4ff5-b7bc-d94ba419eed3.png)
 
 ## Now create plots with the corelation line 
