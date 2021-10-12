@@ -79,4 +79,4 @@ for(i in 1:4) {
 mtext("Anscombe's 4 Regression data sets", outer = TRUE, cex = 1.5)
 par(op)
 
-![Rplot19](https://user-images.githubusercontent.com/90278106/136886239-08e0d30d-556d-46ad-94ac-e387e1f83abe.png)
+![Rplot20](https://user-images.githubusercontent.com/90278106/136886650-2d414765-31d2-40ba-9c5c-4506b849e744.png)
