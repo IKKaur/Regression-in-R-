@@ -29,11 +29,11 @@ lm4 <- lm(y4 ~ x4, data=anscombe)
 summary(lm4)
 
 ## Comparison of Models
-	        p-value   	Adjusted R2
-Model 1 	0.00217	     0.6275
+	   p-value   	Adjusted R2
+Model 1   0.00217	   0.6275
 Model 2	  0.002179	   0.6292
 Model 3	  0.002176	   0.6292
-Model 4  	0.002165	   0.6297
+Model 4   0.002165	   0.6297
 ![image](https://user-images.githubusercontent.com/90278106/136884392-8c104142-0d08-4ff5-b7bc-d94ba419eed3.png)
 
 ## Now create plots with the corelation line 
